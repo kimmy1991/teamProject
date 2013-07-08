@@ -16,4 +16,4 @@ Specification for the database:
 
 A table called categories with the following fields
 
-ID(PK) Category(FK) application_name
+ID(PK) Category application_name
