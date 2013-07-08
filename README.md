@@ -9,3 +9,11 @@ webservices- should bridge the communication between the front end and backend, 
 appropriate error messages and validate the data coming in
 android app- i dont care what app you make
 database- we can pick from a few database, make some suggestions
+
+
+Specification for the database:
+
+
+A table called categories with the following fields
+
+ID(PK) Category(FK) application_name
