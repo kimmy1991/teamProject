@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Register</h1>
+<form method="post">
+    <table>
+        <tr>
+          <td>
+           Name
+         </td>
+           <td>
+            {{register.name}}
+          </td>
+        </tr>
+         <tr>
+           <td>
+             Password
+            </td>
+            <td>
+            {{register.password}}
+          </td>
+        </tr>
+      <tr>
+          <td>
+           Email
+         </td>
+           <td>
+            {{register.email}}
+          </td>
+        </tr>
+      <tr>
+        <td>
+          <input type="submit" value="Register">
+        </td>
+      </tr>
+    </table>
+
+  </form>
+{% endblock %}

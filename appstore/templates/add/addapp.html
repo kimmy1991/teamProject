@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block content %}
+    <div>
+      <form method="post">
+        <label>
+          <div>Name</div>
+          {{form.name(size=25)}}
+        </label>
+
+        <label>
+          <div>Category</div>
+          {{form.category(size=25)}}
+        </label>
+
+        <label>
+          <div>Description</div>
+          {{form.description(cols="25", rows="20")|safe}}
+        </label>
+
+        <!-- <div class="error">{{error}}</div> -->
+          <div>
+        <input type="submit" value="Add">
+      </div>
+      </form>
+
+    </div>
+{% endblock %}

@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Sign In</h1>
+<form action="" method="post" name="login">
+    <table>
+        <tr>
+          <td>
+          <lable> Name</label>
+         </td>
+           <td>
+            {{login.name}}
+          </td>
+        </tr>
+         <tr>
+           <td>
+             Password
+            </td>
+            <td>
+            {{login.password}}
+          </td>
+        </tr>
+      
+      <tr>
+        <td>
+          <input type="submit" value="Sign In">
+        </td>
+      </tr>
+
+
+    </table>
+</form>
+<form action="/register">
+     <table>
+      <tr>
+          <td>Don't have an account?</td>
+          <td>
+          
+            <input type="submit" value="Register" />
+       </td>
+        
+        </tr>
+       </table>
+   </form>      
+{% endblock %}
