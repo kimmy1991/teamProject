@@ -17,3 +17,19 @@ Specification for the database:
 A table called categories with the following fields
 
 ID(PK) Category application_name
+
+--- How to install the project---
+
+Install pip
+Make a 'virtualenv' for this project using following commands:
+virtualenv <folder_name>
+source <folder_name>/bin/activate
+(to quit the virtual environment, type in terminal: deactive)
+
+Install the required dependencies: pip install -r requirements.txt
+Run the project:
+
+python manage.py runserver
+
+Goto: http://localhost:5000
+
